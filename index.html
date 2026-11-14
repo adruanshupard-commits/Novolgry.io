@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101820">
+  <meta name="description" content="НовоИгры — независимая команда разработчиков видеоигр.">
+  <title>НовоИгры — независимая игровая студия</title>
+  <style>
+
+    *{box-sizing:border-box}
+    body{margin:0;background:#202b38 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cpath fill='%23232f3d' d='M0 0h4v4H0zM4 4h4v4H4z'/%3E%3C/svg%3E");color:#e5eaf0;font:14px/1.55 Tahoma,Verdana,Arial,sans-serif}
+    a{color:#79c8ff}a:hover{color:#fff;text-decoration:none}
+    .wrap{width:min(1000px,calc(100% - 28px));margin:auto}
+    header{background:linear-gradient(#354b62,#1a2736);border-bottom:3px solid #111923;box-shadow:0 2px 7px #0008}
+    .nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:12px 0}
+    .brand{font:bold 28px/1 Tahoma,Verdana,sans-serif;letter-spacing:1px;color:#f1f5fa;text-decoration:none;text-shadow:2px 2px #101722}.brand span{color:#69c5ff}
+    nav{display:flex;gap:5px;flex-wrap:wrap}nav a{display:block;padding:9px 12px;background:linear-gradient(#526b83,#304358);border:1px solid #71869a;border-bottom-color:#111c28;color:#fff;text-decoration:none;font:bold 11px Tahoma,sans-serif;text-transform:uppercase;text-shadow:1px 1px #172332}nav a:hover{background:linear-gradient(#6a8eaa,#3e5e79)}
+    .hero{padding:58px 0 48px;background:linear-gradient(135deg,#344c64,#1b2b3b 70%);border-bottom:1px solid #52687d;box-shadow:inset 0 1px #8194a5}
+    .eyebrow{font:bold 11px Tahoma,sans-serif;letter-spacing:2px;color:#7dcfff;text-transform:uppercase}
+    h1{font:bold clamp(34px,6vw,58px)/1.05 Tahoma,Verdana,sans-serif;letter-spacing:0;margin:15px 0 18px;color:#fff;text-shadow:3px 3px #111e2b}
+    .lead{max-width:680px;color:#c4d0dc;font-size:17px}
+    .actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:25px}
+    .btn{display:inline-block;padding:10px 16px;border:1px solid #8ba0b3;border-radius:3px;text-decoration:none;background:linear-gradient(#617d96,#354d65);font-weight:bold;font-size:13px;color:#fff;box-shadow:inset 0 1px #a8bac9,0 2px 3px #0007}.btn.primary{background:linear-gradient(#78c9f7,#287eaf);border-color:#9bdcff;color:#071b29}
+    section{padding:48px 0;border-bottom:1px solid #46596b}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:22px}
+    h2{font:bold clamp(25px,4vw,34px)/1.1 Tahoma,Verdana,sans-serif;margin:7px 0 0;color:#f3f7fa;text-shadow:2px 2px #111b26}
+    .sub{color:#aebdca;max-width:600px;margin:8px 0 0}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .card{background:linear-gradient(#2d4053,#243447);border:1px solid #60758a;padding:17px;min-height:105px;box-shadow:inset 0 1px #8093a5,0 2px 4px #0005}
+    .card a{display:block;overflow-wrap:anywhere;font:13px/1.5 Consolas,Monaco,monospace;margin:0}
+    .history{display:grid;grid-template-columns:145px 1fr;gap:20px;padding:17px 14px;border-top:1px solid #506477;background:#293b4d}
+    .history:nth-child(even){background:#243548}.history strong{font:bold 12px Tahoma,sans-serif;color:#7dcfff}.history p{margin:0;color:#c4d0dc}
+    .team{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .person{padding:18px;border:1px solid #637b91;background:linear-gradient(#344b61,#26394d);box-shadow:inset 0 1px #8da0b2}
+    .person h3{margin:0;color:#fff;font:bold 17px Consolas,Monaco,monospace}.person p{margin:6px 0 0;color:#aebdca;font-size:12px}
+    footer{padding:24px 0;color:#9eafbd;font-size:12px;background:#172330}
+    @media(max-width:760px){.grid,.team{grid-template-columns:1fr 1fr}.history{grid-template-columns:1fr;gap:5px}nav{gap:4px}}
+    @media(max-width:520px){.grid,.team{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}nav a{padding:8px}.hero{padding:42px 0}}
+  </style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#">НОВО<span>ИГРЫ</span></a>
+  <nav><a href="#games">ИГРЫ</a><a href="#about">О СТУДИИ</a><a href="#history">ИСТОРИЯ</a><a href="#community">YOUTUBE</a><a href="#team">КОМАНДА</a></nav>
+</div></header>
+<main>
+  <section class="hero"><div class="wrap">
+    <div class="eyebrow">Независимая команда разработчиков</div>
+    <h1>ИГРЫ, СОЗДАННЫЕ<br>СВОИМИ РУКАМИ.</h1>
+    <p class="lead">НовоИгры — небольшая команда, которая экспериментирует с игровыми идеями и создаёт собственные проекты.</p>
+    <div class="actions"><a class="btn primary" href="#games">Смотреть проекты</a><a class="btn" href="#about">О НовоИграх</a></div>
+  </div></section>
+
+  <section id="games"><div class="wrap">
+    <div class="section-head"><div><div class="eyebrow">Каталог</div><h2>Наши проекты</h2><p class="sub">Некоторые проекты команды. Описания и дополнительные материалы можно будет добавить позже.</p></div></div>
+    <div class="grid">
+      <article class="card"><a href="https://gamejolt.com/@adruanshupard" target="_blank" rel="noopener">https://gamejolt.com/@adruanshupard</a></article>
+      <article class="card"><a href="https://gamejolt.com/@kirill1281" target="_blank" rel="noopener">https://gamejolt.com/@kirill1281</a></article>
+      <article class="card"><a href="https://gamejolt.com/@adruanshupard" target="_blank" rel="noopener">https://gamejolt.com/@adruanshupard</a></article>
+      <article class="card"><a href="https://gamejolt.com/@adruanshupard" target="_blank" rel="noopener">https://gamejolt.com/@adruanshupard</a></article>
+      <article class="card"><a href="https://gamejolt.com/@adruanshupard" target="_blank" rel="noopener">https://gamejolt.com/@adruanshupard</a></article>
+      <article class="card"><a href="https://gamejolt.com/@adruanshupard" target="_blank" rel="noopener">https://gamejolt.com/@adruanshupard</a></article>
+    </div>
+  </div></section>
+
+  <section id="about"><div class="wrap">
+    <div class="eyebrow">Кто мы</div><h2>О НовоИграх</h2>
+    <p class="lead">НовоИгры — небольшая независимая команда из трёх разработчиков. Мы создаём игры и развиваем собственные проекты. В работе использовались инструменты и наборы ресурсов для Unity, включая UnitZ UNET от стороннего автора.</p>
+  </div></section>
+
+  <section id="history"><div class="wrap">
+    <div class="eyebrow">С чего всё началось</div><h2>История команды</h2>
+    <div style="margin-top:30px">
+      <div class="history"><strong>НАЧАЛО</strong><p>Евкакий и Лесвтег играли на мобильных телефонах в Zombie Craft Survival. С этого началась история будущей команды.</p></div>
+      <div class="history"><strong>ПЕРВЫЕ ИГРЫ</strong><p>Евкакий первым начал заниматься созданием игр. Позже у него появился ноутбук, и он смог развивать свои проекты дальше.</p></div>
+      <div class="history"><strong>СВОИ ПРОЕКТЫ</strong><p>Постепенно к разработке подключились остальные участники, появились отдельные и совместные игры.</p></div>
+    </div>
+  </div></section>
+
+  <section id="community"><div class="wrap">
+    <div class="eyebrow">Сообщество</div><h2>НовоИгры на YouTube</h2>
+    <p class="lead">Летсплеи и видео по играм НовоИгр от игроков и зрителей.</p>
+    <div class="card" style="max-width:520px">
+      <div class="tag">YouTube · Австрия</div><h3>LunaPatrick</h3>
+      <p>Видео и летсплеи по играм НовоИгр.</p>
+      <a href="https://www.youtube.com/@LunaPatrick-b1j/videos" target="_blank" rel="noopener">Открыть канал на YouTube ↗</a>
+    </div>
+  </div></section>
+
+  <section id="team"><div class="wrap">
+    <div class="eyebrow">Участники</div><h2>Команда</h2>
+    <p class="sub" style="margin-bottom:25px">Участники команды в Discord.</p>
+    <div class="team">
+      <div class="person"><h3>dima065386</h3><p>Discord</p></div>
+      <div class="person"><h3>zombi_zhrat_mozgi</h3><p>Discord</p></div>
+      <div class="person"><h3>leswteg</h3><p>Discord</p></div>
+    </div>
+  </div></section>
+</main>
+<footer><div class="wrap">© НовоИгры · Неофициальный сайт команды</div></footer>
+</body></html>
